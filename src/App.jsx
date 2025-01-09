@@ -20,11 +20,11 @@ function App() {
   return (
     <>
     <br></br>
-      <h1 className='heading'>Pokemon Viewer</h1><br></br>
+      <h1 className='heading'>Pokedex</h1><br></br>
       <center>
-      <input type='number' placeholder="Number" onChange={(e)=>{setNumber(e.target.valueAsNumber)}}></input>
+      <input type='number' placeholder="Number" onChange={(e)=>{e.target.valueAsNumber>0?setNumber(e.target.valueAsNumber):setNumber(1)}}></input>
       <p className='display'>{data?data.name:"null"}</p>
-      <img src={data?data.sprites.other.dream_world.front_default:"/src/assets/loading.webp"} />
+      <img src={data?data.sprites.other.dream_world.front_default:"/src/assets/loading.webp"} width="30%" />
       </center>
     </>
   )
