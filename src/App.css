@@ -1,0 +1,19 @@
+.heading{
+  text-align: center;
+  color: black;
+  border: solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+body {
+  background-color: #3AAFA9;
+}
+
+.display{
+  margin-left: 20px;
+  font-size: xx-large;
+}
