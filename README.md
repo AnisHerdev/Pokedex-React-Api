@@ -18,5 +18,5 @@ A simple React application that fetches Pokémon data from the [PokéAPI](https:
    cd Pokedex-React-Api
 2. Install dependencies and run it:
    ```bash
-   npm install
+   npm install axios
    npm run dev
