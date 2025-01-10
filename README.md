@@ -15,6 +15,7 @@ A simple React application that fetches Pokémon data from the [PokéAPI](https:
 1. Clone the repository:
    ```bash
    git clone https://github.com/AnisHerdev/Pokedex-React-Api.git
+   cd Pokedex-React-Api
 2. Install dependencies and run it:
    ```bash
    npm install
