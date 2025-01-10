@@ -43,6 +43,7 @@ function App() {
     <br></br>
       <h1 className='heading'>Pokedex</h1><br></br>
       <center>
+      <p style={{fontSize: 'x-large',fontWeight:'bold'}}>Enter a number (1 - 1025):</p>
       <input type='number' value={number || ""} onChange={(e)=>{e.target.valueAsNumber>0?setNumber(e.target.valueAsNumber):setNumber(null)}} max={1025}></input>
       <p style={{fontSize: 'xx-large'}}><b>Name:</b> {data?data.name:"null"}</p>
       <img src={data?data.sprites.other.dream_world.front_default:"/src/assets/loading.webp"} width="300px" />
