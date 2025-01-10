@@ -7,7 +7,7 @@ A simple React application that fetches Pokémon data from the [PokéAPI](https:
 - Display Pokémon details such as name, abilities, weight, and height.
 - Play the cry (sound) of the Pokémon using the PokéAPI.
 
-## Demo
+## ScreenShot
 ![Pokedex App Screenshot](screenshot_pokedex.png)
 
 ## Usage
