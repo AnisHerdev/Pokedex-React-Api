@@ -8,7 +8,7 @@ A simple React application that fetches Pokémon data from the [PokéAPI](https:
 - Play the cry (sound) of the Pokémon using the PokéAPI.
 
 ## ScreenShot
-![Pokedex App Screenshot](/screenshot_pokedex.png)
+![Pokedex App Screenshot](/public/screenshot_pokedex.png)
 
 ## Usage
 - Enter a Pokémon number (1 to 1025) in the input field.
